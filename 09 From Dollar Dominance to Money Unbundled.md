@@ -1,16 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 9
-forecast_title: "From Dollar Dominance to Money Unbundled"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f09
-  - domain/financial-architecture
-  - domain/digital-information-ecosystems
-  - domain/trade-systems
-language: en
+layout: default
+title: "F09: Dollar Dominance → Unbundled"
+nav_order: 19
+parent: "Forecasts"
 ---
 
 # 09	From Dollar Dominance to  	Money Unbundled

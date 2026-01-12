@@ -1,17 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 3
-forecast_title: "From Digital Empathy to Localized Solidarity"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f03
-  - domain/civil-society-democratic-institutions
-  - domain/global-health-infrastructure
-  - domain/social-values-identity-systems
-  - domain/climate-mitigation-adaptation
-language: en
+layout: default
+title: "F03: Digital Empathy → Local Solidarity"
+nav_order: 13
+parent: "Forecasts"
 ---
 
 # 03	From Digital Empathy to  	Localised Solidarity

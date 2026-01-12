@@ -1,16 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 7
-forecast_title: "From Selective Migration to People as Asset Class"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f07
-  - domain/migration-population-movements
-  - domain/social-values-identity
-  - domain/digital-information-ecosystems
-language: en
+layout: default
+title: "F07: Migration → People as Assets"
+nav_order: 17
+parent: "Forecasts"
 ---
 
 # 07	From Selective Migration to  	People as Asset Class

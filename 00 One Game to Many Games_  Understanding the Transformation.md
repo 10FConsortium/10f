@@ -1,9 +1,7 @@
 ---
-type: guide
-scope: 10F
-project: 10F
-created: 2025-12-15
-updated: 2025-12-15
+layout: default
+title: "One Game to Many Games"
+nav_order: 3
 ---
 
 # 00	One Game to Many Games:  	Understanding the Transformation

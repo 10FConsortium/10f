@@ -1,0 +1,39 @@
+title: 10F Forecasts
+description: Ten strategic forecasts mapping fundamental shifts through 2035
+theme: just-the-docs
+
+url: https://10fconsortium.github.io
+baseurl: /10f
+
+# Navigation structure
+nav_order: 1
+
+# Enable search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+# Footer
+footer_content: "&copy; 2026 10F Consortium. Licensed under CC-BY-4.0."
+
+# Color scheme (light/dark)
+color_scheme: light
+
+# Aux links (top right)
+aux_links:
+  "GitHub":
+    - "https://github.com/10FConsortium/10f"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

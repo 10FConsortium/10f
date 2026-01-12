@@ -1,18 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 8
-forecast_title: "From Energy Hegemony to Power Plurality"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f08
-  - domain/energy-systems
-  - domain/climate-mitigation-adaptation
-  - domain/global-commons-governance
-  - domain/global-supply-chains
-  - domain/trade-systems
-language: en
+layout: default
+title: "F08: Energy Hegemony → Plurality"
+nav_order: 18
+parent: "Forecasts"
 ---
 
 # 08	From Energy Hegemony  	to Power Plurality

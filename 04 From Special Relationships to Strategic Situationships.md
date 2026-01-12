@@ -1,18 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 4
-forecast_title: "From Special Relationships to Strategic Situationships"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f04
-  - domain/trade-systems
-  - domain/global-supply-chains
-  - domain/security-alliances-military-technologies
-  - domain/financial-architecture
-  - domain/digital-information-ecosystems
-language: en
+layout: default
+title: "F04: Relationships → Situationships"
+nav_order: 14
+parent: "Forecasts"
 ---
 
 # 04	From Special Relationships  	to Strategic Situationships

@@ -1,17 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 5
-forecast_title: "From Collective Climate Ambition to Fragmented Adaptation"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f05
-  - domain/climate-mitigation-adaptation
-  - domain/energy-systems
-  - domain/migration-population-movements
-  - domain/civil-society-democratic-institutions
-language: en
+layout: default
+title: "F05: Climate Ambition → Adaptation"
+nav_order: 15
+parent: "Forecasts"
 ---
 
 # 05	From Collective Climate Ambition  	to Fragmented Adaptation

@@ -1,9 +1,7 @@
 ---
-type: credits
-scope: 10F
-project: 10F
-created: 2025-12-15
-updated: 2025-12-15
+layout: default
+title: "Contributors"
+nav_order: 30
 ---
 
 # 10F Contributors

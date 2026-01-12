@@ -1,9 +1,7 @@
 ---
-type: guide
-scope: 10F
-project: 10F
-created: 2025-12-15
-updated: 2025-12-15
+layout: default
+title: "Reading Guide"
+nav_order: 2
 ---
 
 # 00	Reading and Applying  	the 10F Forecasts

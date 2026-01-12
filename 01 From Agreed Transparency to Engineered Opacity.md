@@ -1,19 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 1
-forecast_title: "From Agreed Transparency to Engineered Opacity"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f01
-  - domain/digital-information-ecosystem
-  - domain/trade-systems
-  - domain/global-supply-chains
-  - domain/financial-architecture
-  - domain/technology-governance
-  - domain/civil-society-democratic-institutions
-language: en
+layout: default
+title: "F01: Transparency → Opacity"
+nav_order: 11
+parent: "Forecasts"
 ---
 
 # F01		From Agreed Transparency  		to Engineered Opacity

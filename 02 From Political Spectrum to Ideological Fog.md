@@ -1,18 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 2
-forecast_title: "From Political Spectrum to Ideological Fog"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f02
-  - domain/social-values-identity
-  - domain/digital-information-ecosystems
-  - domain/global-health-systems
-  - domain/climate-mitigation-adaptation
-  - domain/migration-population-movements
-language: en
+layout: default
+title: "F02: Spectrum → Fog"
+nav_order: 12
+parent: "Forecasts"
 ---
 
 # 02	From Political Spectrum  to Ideological Fog

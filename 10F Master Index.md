@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Master Index"
+nav_order: 31
+---
+
 # 10F Forecasts - Master Index
 
 ## Understanding the Framework

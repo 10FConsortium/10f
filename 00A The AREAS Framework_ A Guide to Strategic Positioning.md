@@ -1,9 +1,7 @@
 ---
-type: framework
-scope: 10F
-project: 10F
-created: 2025-12-15
-updated: 2025-12-15
+layout: default
+title: "AREAS Framework"
+nav_order: 4
 ---
 
 # 00A		The AREAS Framework:  		A Guide to Strategic Positioning

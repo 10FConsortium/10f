@@ -1,17 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 6
-forecast_title: "From Open Society to Strategic Opacity"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f06
-  - domain/trade-systems
-  - domain/migration-population-movements
-  - domain/global-health-infrastructure
-  - domain/social-values-identity-systems
-language: en
+layout: default
+title: "F06: Open Society → Opacity"
+nav_order: 16
+parent: "Forecasts"
 ---
 
 # 06	From Open Society to  	Strategic Opacity

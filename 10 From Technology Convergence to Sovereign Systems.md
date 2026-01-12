@@ -1,18 +1,8 @@
 ---
-type: forecast
-scope: 10F
-forecast_number: 10
-forecast_title: "From Technology Convergence to Sovereign Systems"
-created: 2025-12-15
-updated: 2025-12-16
-tags:
-  - f10
-  - domain/technology-infrastructure
-  - domain/digital-information-ecosystems
-  - domain/global-supply-chains
-  - domain/financial-architecture
-  - domain/security-military-technologies
-language: en
+layout: default
+title: "F10: Tech Convergence → Sovereignty"
+nav_order: 20
+parent: "Forecasts"
 ---
 
 # 10	From Technology Convergence  	to Sovereign Systems
