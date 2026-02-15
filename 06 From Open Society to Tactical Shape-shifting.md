@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "F06: Open Society → Opacity"
+title: "F06: Open Society → Tactical Shape-shifting"
 nav_order: 16
 parent: "Forecasts"
 ---
 
-# 06	From Open Society to  	Strategic Opacity
+# 06	From Open Society to  	Tactical Shape-shifting
 
 > **Context:** This is one of the [10F forecasts](00%20Reading%20and%20Applying%20the%2010F%20Forecasts.md). See also: [Understanding the Transformation](00%20One%20Game%20to%20Many%20Games%5F%20%20Understanding%20the%20Transformation.md) and the [AREAS Framework](00A%20The%20AREAS%20Framework%5F%20A%20Guide%20to%20Strategic%20Positioning.md).
 
