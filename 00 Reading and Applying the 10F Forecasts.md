@@ -15,11 +15,11 @@ These Forecasts are designed for leaders and teams within organisations navigati
 
 ## Who Writes a 10F Forecast
 
-Each 10F Forecast was written collaboratively by several authors from the 10F Consortium and represents a blend of voices, points of view and insights from across a dozen contributors. They don't necessarily reflect unanimity; they represent consensus. They are also informed by the broader contributions and ideas of a group spread across six continents that collectively spans strategic foresight, complexity science, sustainability, geopolitical intelligence, AI/technology policy, urban innovation, systems thinking and narrative/cultural strategy, with deep experience advising governments, UN agencies, foundations and major institutions on navigating uncertainty and systemic change.
+Each 10F Forecast was written collaboratively by a group of authors from the 10F Consortium and represents a blend of voices, points of view and insights from across a dozen contributors. Forecasts don't necessarily reflect unanimity; they represent consensus. They are also informed by the broader contributions and ideas of a group spread across six continents that collectively spans strategic foresight, complexity science, sustainability, geopolitical intelligence, AI/technology policy, urban innovation, systems thinking and narrative/cultural strategy, with deep experience advising governments, UN agencies, foundations and major institutions on navigating uncertainty and systemic change.
 
 ## The "From-To" Frame
 
-Every Forecast is organised around a "From-To" statement that broadly captures a paradigm shift. The "From" describes the assumptions and arrangements that shaped the previous era. The "To" describes the emerging reality replacing them. These are transformations visible in current evidence that will define the operating environment through 2035\.
+Every Forecast is organised around a "From-To" statement that broadly captures a paradigm shift. The "From" describes the assumptions and arrangements that shaped the previous era. The "To" describes the emerging reality replacing them. These are transformations visible in current evidence that will define the operating environment through 2035.
 
 ## The Forecast Structure {#the-forecast-structure}
 
@@ -57,7 +57,7 @@ How the transformation affects broader international arrangements—what collaps
 
 ### AREAS Strategic Landscape
 
-Rather than sorting actors into fixed categories (like allies or adversaries), each Forecast maps strategic positions using the AREAS framework:
+Rather than sorting actors into fixed categories like allies or adversaries, each Forecast maps strategic positions using the AREAS framework:
 
 * **Architecting**: Actors actively designing and building the new system—setting rules, establishing infrastructure and shaping what emerges  
 * **Resisting**: Actors working to prevent, slow, or reverse the transformation because they benefit from existing arrangements or see the emerging system as threatening  
@@ -98,36 +98,36 @@ The 10F Forecasts won't tell you what's going to happen. They'll help expand per
 
 They're designed to provide:
 
-* **Orientation:** a map, not a route  
-* **Better questions:** not a playbook  
-* **Shared language:** if others are using it, you can too  
-* **Agency:** where there may be leverage points for action
+* Orientation: a map, not a route
+* Better questions: not a playbook
+* Shared language: if others are using it, you can too
+* Agency: where there may be leverage points for action
 
 ## Finding Your Entry Point
 
-**Forecasts describe shifts that may already feel familiar**—things you've sensed but haven't had language for, or patterns you've noticed but couldn't quite name.
+Forecasts describe shifts that may already feel familiar—things you've sensed but haven't had language for, or patterns you've noticed but couldn't quite name.
 
-**There’s no need to read every forecast.** Start with one or two that connect to what your organisation is already navigating. Use the Key Domains to find them.
+There's no need to read every Forecast. Start with one or two that connect to what your organisation is already navigating. Use the Key Domains to find them.
 
-**Read the Bottom Line first.** Does it resonate? If so, go deeper. If not, move on. Trust your instincts about what's relevant.
+Read the Bottom Line first. Does it resonate? If so, go deeper. If not, move on. Trust your instincts about what's relevant.
 
 ## Bringing Others In
 
-Sensemaking is a social process. The shifts these Forecasts describe don't happen to individuals; they happen to systems. Understanding them takes more than one perspective. 
+Sensemaking is a social process. The shifts these Forecasts describe don't happen to individuals; they happen to systems. Understanding them takes more than one perspective.
 
-* **Cognitive:** We don't know what we think until we say it out loud. Articulating to others surfaces assumptions we didn't know we held.  
-* **Perspectival:** Each person sees different signals, weighs different risks, notices different patterns. Pooling perspectives helps catch blind spots.  
-* **Legitimacy:** An insight you hold alone feels like a hunch. The same insight shared and tested by a group becomes actionable.  
-* **Commitment:** People are more likely to act on what they helped shape. Conclusions handed down don't stick the way conclusions arrived at together do.  
-* **Strategic Planning:** During annual or multi-year planning cycles, use the Old Assumptions section to audit your current strategy with your team. Ask: which assumptions are we still operating on that a Forecast identifies as changing?  
-* **Catalyse Conversation:** Use the Bottom Line or a single Scenario Pathway to open a discussion with colleagues who aren't yet seeing the shift. The Forecasts provide a way into the conversation that doesn't require you to be the one making the claim.  
-* **Scenario Exercises:** The three Scenario Pathways provide ready-made inputs for group scenario planning. Stress-test a specific decision together: would your approach hold up across all three? What would you do differently under each?  
-* **Team Workshops:** Use the AREAS framework to map your organisation's current position then consider the positioning of partners, competitors and counterparts. Ask together: is this position deliberate? What would trigger a shift? Who in our network is architecting this shift—and should we be closer to them?  
-* **Cross-Organisational Dialogue:** When working with partners across sectors or geographies, use a shared Forecast as common ground. Ask: which Strategic Blind Spots apply to us all?
+* Cognitive: We don't know what we think until we say it out loud. Articulating to others surfaces assumptions we didn't know we held.
+* Perspectival: Each person sees different signals, weighs different risks, notices different patterns. Pooling perspectives helps catch blind spots.
+* Legitimacy: An insight you hold alone feels like a hunch. The same insight shared and tested by a group becomes actionable.
+* Commitment: People are more likely to act on what they helped shape. Conclusions handed down don't stick the way conclusions arrived at together do.
+* Strategic Planning: During annual or multi-year planning cycles, use the Old Assumptions section to audit your current strategy with your team. Ask: which assumptions are we still operating on that a Forecast identifies as changing?
+* Catalyse Conversation: Use the Bottom Line or a single Scenario Pathway to open a discussion with colleagues who aren't yet seeing the shift. The Forecasts provide a way into the conversation that doesn't require you to be the one making the claim.
+* Scenario Exercises: The three Scenario Pathways provide ready-made inputs for group scenario planning. Stress-test a specific decision together: would your approach hold up across all three? What would you do differently under each?
+* Team Workshops: Use the AREAS framework to map your organisation's current position then consider the positioning of partners, competitors and counterparts. Ask together: is this position deliberate? What would trigger a shift? Who in our network is architecting this shift—and should we be closer to them?
+* Cross-Organisational Dialogue: When working with partners across sectors or geographies, use a shared Forecast as common ground. Ask: which Strategic Blind Spots apply to us all?
 
 ## Charting Transformation Using AREAS
 
-You can find more information on 10F’s AREAS Framework, as well as a tool to apply it, here:
+You can find more information on 10F's AREAS Framework in the next section and a tool for applying it, at the link below:
 
 * AREAS Framework Introduction ([link](https://docs.google.com/document/u/1/d/1ekbRIHNG8sTtSrzbSgQiU9un_dfU8fQBlq6G6JRLNrs/edit))  
 * AREAS Canvas Toolkit ([PDF download](https://drive.google.com/file/d/1NCMmTDs7KwQDp4L7qvhYXIRantLrWACQ/view?usp=drive_link))
@@ -136,9 +136,9 @@ You can find more information on 10F’s AREAS Framework, as well as a tool to a
 
 Individual Forecasts describe single transformations, but the shifts interact. Once you've identified two or three Forecasts relevant to your context, look for:
 
-* **Reinforcing Dynamics** where one shift accelerates another  
-* **Tensions** where emerging norms in one Forecast conflict with another  
-* **Compounding Risks** where Strategic Blind Spots overlap
+* Reinforcing Dynamics where one shift accelerates another
+* Tensions where emerging norms in one Forecast conflict with another
+* Compounding Risks where Strategic Blind Spots overlap
 
 ## Join the Conversation
 
