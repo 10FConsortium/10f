@@ -65,6 +65,39 @@ The repo file contains extensive content (145 lines) covering:
 
 None of this detailed content appears on the website landing page, which only shows the Bottom Line summary and link to PDF.
 
+### F01: From Agreed Transparency to Engineered Opacity
+**File:** `01 From Agreed Transparency to Engineered Opacity.md`
+**Website:** https://www.10fconsortium.org/forecast-index/f01-agreed-transparency-strategic-opacity
+
+#### Differences Found: 2
+
+##### [1] Title Separator
+**Website version:**
+"F01: From Agreed Transparency to Engineered Opacity"
+(uses colon separator after forecast number)
+
+**Repo version (line 8):**
+"F01		From Agreed Transparency  		to Engineered Opacity"
+(uses tabs instead of colon, with extra whitespace between words)
+
+**Change type:** formatting
+**Action:** TBD - minor formatting inconsistency
+
+##### [2] Bottom Line Bold Formatting
+**Website version:**
+"...Shifting from transparent disclosure to curated invisibility restructures how power operates..."
+(no bold formatting visible)
+
+**Repo version (line 22):**
+"...Shifting from transparent disclosure to **curated invisibility** restructures how power operates..."
+(has bold formatting on "curated invisibility")
+
+**Change type:** formatting
+**Action:** TBD - PDF likely has this bold, website rendering may not show it
+
+#### Note on Content Match
+Unlike F00, F01's Bottom Line text matches exactly between website and repo (except for the bold formatting difference). The Key Domains listed on the website also match the repo's Key Domains section. The repo contains full PDF content (203 lines) with all standard forecast sections.
+
 ## Summary of Files Requiring Updates
 
 [Will be populated at end]
