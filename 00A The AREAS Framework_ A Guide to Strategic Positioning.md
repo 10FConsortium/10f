@@ -62,9 +62,9 @@ Those experiencing the transformation without adequate capacity to architect, re
 
 AREAS draws from many allied analytical traditions. From scenario planning, it takes the principle that actors have agency and make choices based on perceived interests. From systems theory, it borrows the idea that positions are relational—architecting only makes sense relative to what's being built, resisting requires something to resist against. From political economy, it draws the insight that power isn't just held but exercised through specific actions. From network analysis, it recognises that actors occupy multiple positions simultaneously across different transformation dimensions.
 
-Positions shift faster than identities. AREAS maps what actors do, not who they are. The framework deliberately avoids the teleological assumptions that may emerge from some schools of analysis. It acknowledges that outcomes emerge from strategic interaction, not predetermined relationships or roles. 
+Positions shift faster than identities. AREAS maps what actors do, not who they are. The framework deliberately avoids the teleological assumptions that may emerge from some schools of analysis. It acknowledges that outcomes emerge from strategic interaction, not predetermined relationships or roles.
 
-Lastly, AREAS is not meant to be a grand theory, but as a fit-for-purpose tool to help shed light on the way power, or lack of power, interacts within major shifts. It’s intended as a framework for understanding, not necessarily for solving issues relevant to the users.
+Lastly, AREAS is not meant to be a grand theory, but a fit-for-purpose tool to help shed light on the way power, or lack of power, interacts within major shifts. It's intended as a framework for understanding, not necessarily for solving issues relevant to the users.
 
 ## Active Application
 
