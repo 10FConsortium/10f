@@ -34,7 +34,7 @@ This forecast examines what comes next. Cities, states and regions are stepping 
 
 ## Emerging Norms
 
-* **The UNFCCC's consensus requirement**—designed for legitimacy—has become a structural veto. At COP30, outcomes supported by the vast majority were blocked by a handful of petrostates.  
+* **The UNFCCC's Consensus Requirement**—designed for legitimacy—has become a structural veto. At COP30, outcomes supported by the vast majority were blocked by a handful of petrostates.  
 * **Loans Not Grants:** trapping vulnerable nations in debt as climate disasters erode their economies. Those most exposed to climate impacts are being left to design and fund their own survival strategies.  
 * **Alliances Mirror Blocs:** Major powers pressure their trade partners to adopt their preferred energy systems.  
 * **Partnerships Filling Gaps:** As patience with national inaction wears thin, those closest to citizens are shouldering greater responsibility for climate action.  
@@ -57,7 +57,7 @@ Other regions are leveraging the competition. Africa holds nearly 30% of the wor
 
 Meanwhile, climate impacts are accelerating. Heat waves are killing thousands. Floods are erasing towns. Fires are burning through communities in hours. In 2024 alone, disasters triggered 45.8 million internal displacements—nearly double the annual average of the past decade. The World Bank projects up to 216 million people could become internal climate migrants in the next twenty-five years. Early climate action could reduce this figure by 80%, but that window is closing as emissions continue to rise.
 
-Recognition of these new climate realities is forcing a shift in focus from global coordination to building local resilience. Subnational actors, bilateral partnerships and regional networks are stepping in where national governments are not. This more distributed model may prove faster and more adaptive than top-down structures. In Australia, Indigenous fire management practices—systematic, low-intensity burns that reduce fuel loads—are being reintegrated after decades of centralised approaches failed to prevent catastrophic wildfires. Local knowledge, applied locally, is solving problems national policy couldn't.
+Recognition of these new climate realities is forcing a shift in focus from global coordination to building local resilience. Subnational actors, bilateral partnerships and regional networks are stepping in where national governments are not. This more distributed model may prove faster and more adaptive than top-down structures. In Australia, State, territory and local fire agencies, largely volunteer, have long used prescribed burning and mechanical clearing. Over the past decades these practices have been enriched by the collaborative reintegration of Indigenous mosaic burning drawing on tens of thousands of years of knowledge of country.
 
 But local adaptation has a ceiling. At certain combinations of heat and humidity, the human body simply cannot cool itself—no preparation, no infrastructure, no behaviour change can alter the realities of physics. Beyond this line, adaptation isn't a strategy—it's a lottery. These conditions have already occurred, briefly, in South Asia and the Persian Gulf. At 2.5°C of warming, they become routine.
 
@@ -69,7 +69,7 @@ But local adaptation has a ceiling. At certain combinations of heat and humidity
 
 ## Global Implications
 
-* **Competition Not Collaboration:** China, the US and the EU each build climate governance into their sphere of influence—Belt and Road, LNG contracts, the Carbon Border Adjustment Mechanism (CBAM). Climate action happens, but as strategic competition rather than collective response.  
+* **Competition Not Collaboration:** China, the US and the EU each build climate governance into their sphere of influence. Climate action happens, but as strategic competition rather than collective response.  
 * **UNFCCC Persists as Governance Migrates:** The forum still convenes but the function of governance moves to trade architecture, bilateral deals, city networks.   
 * **Some Can Adapt, Many Can't:** This division becomes a permanent feature of international relations. Rich regions build sea walls; poor regions send refugees. The system stops trying to close the gap and starts managing the flows between them.  
 * **The Adaptation Divide:** Those who can't adapt in place move. Those who can adapt build walls—physical and political—to manage arrivals. Migration stops being temporary displacement and becomes permanent redistribution.
@@ -78,7 +78,7 @@ But local adaptation has a ceiling. At certain combinations of heat and humidity
 
 ### Architecting
 
-* China is positioning for market dominance in clean energy hardware, but has shown no appetite for leading on governance—phaseout timelines, climate finance, or ecosystem protection  
+* China is positioning for market dominance in clean energy hardware, with no appetite for leading on governance  
 * Subnational networks building parallel governance infrastructure (C40, bilateral city partnerships, direct climate finance channels)  
 * Industrial policy architects bending cost curves and now dominating supply chains  
 * Insurance and reinsurance industry pricing climate risk into markets, effectively redlining regions and forcing adaptation through capital withdrawal
@@ -86,7 +86,7 @@ But local adaptation has a ceiling. At certain combinations of heat and humidity
 ### Resisting
 
 * Petrostates blocking phase-out language at multilateral forums   
-* Fossil interests, amplified by political actors, actively undermine public trust in climate science and multilateral processes with coordinated disinformation campaigns  
+* Fossil interests, amplified by political actors, actively undermining public trust in climate science  
 * Populist movements framing climate action as elite imposition  
 * Extraction-as-sovereignty advocates rejecting “green colonialism”
 
@@ -110,7 +110,7 @@ But local adaptation has a ceiling. At certain combinations of heat and humidity
 * Populations facing managed retreat—decided by capital withdrawal, not democratic process  
 * Agricultural commodity exporters facing yield volatility and supply chain reorganisation they didn't choose
 
-## Scenarios
+## Scenario Pathways
 
 ### New Architecture Emerges
 
@@ -163,7 +163,7 @@ Cities, regions and local authorities are building implementation capacity and f
 
 **Recent examples:** 
 
-* At COP30, subnational leaders presented over 2,500 bankable local projects to channel climate finance directly—demonstrating delivery infrastructure that bypasses traditional national frameworks. [https://www.c40.org/news/cop30-local-leaders-forum-statement/](https://www.c40.org/news/cop30-local-leaders-forum-statement/)  
+* At COP30, subnational leaders presented over 2,500 bankable local projects to channel climate finance directly. [https://www.c40.org/news/cop30-local-leaders-forum-statement/](https://www.c40.org/news/cop30-local-leaders-forum-statement/)  
 * Mumbai became the first Global South city to publish a climate budget in 2024, with 32.18% of its capital expenditure rated as climate-relevant. [https://mcap.mcgm.gov.in/wp-content/uploads/2024/06/English\_Climate-Budget-Report-2024-25\_compressed.pdf](https://mcap.mcgm.gov.in/wp-content/uploads/2024/06/English_Climate-Budget-Report-2024-25_compressed.pdf)
 
 **Signal 2: Finance Targets Displacing Emissions Commitments** 
@@ -172,7 +172,7 @@ Climate negotiations increasingly focus on money flows rather than decarbonisati
 
 **Recent examples:** 
 
-* A UNFCCC synthesis of updated NDCs found submitted pledges would reduce emissions by about 17% below 2019 levels by 2035—still insufficient to align with 1.5°C. [https://cop30.br/en/news-about-cop30/2025-ndc-synthesis-report-highlights-momentum-toward-the-climate-transition-and-calls-for-accelerated-global-cooperation-ahead-of-cop30](https://cop30.br/en/news-about-cop30/2025-ndc-synthesis-report-highlights-momentum-toward-the-climate-transition-and-calls-for-accelerated-global-cooperation-ahead-of-cop30)  
+* Updated NDCs found submitted pledges would reduce emissions by about 17% below 2019 levels by 2035. [https://cop30.br/en/news-about-cop30/2025-ndc-synthesis-report-highlights-momentum-toward-the-climate-transition-and-calls-for-accelerated-global-cooperation-ahead-of-cop30](https://cop30.br/en/news-about-cop30/2025-ndc-synthesis-report-highlights-momentum-toward-the-climate-transition-and-calls-for-accelerated-global-cooperation-ahead-of-cop30)  
 * COP30's headline outcome was a $1.3 trillion annual finance commitment by 2035; no new commitments to phase down fossil fuels were secured. [https://climate.ec.europa.eu/news-other-reads/news/what-did-cop30-achieve-2025-12-01\_en](https://climate.ec.europa.eu/news-other-reads/news/what-did-cop30-achieve-2025-12-01_en)
 
 **Signal 3: Climate-Debt Spirals Constraining Vulnerable Nations** 
@@ -191,7 +191,7 @@ Trade measures are being formalised as climate policy instruments within multila
 **Recent examples:** 
 
 * At COP30 in Belém, countries agreed to the first-ever mention of "unilateral trade measures" in a COP negotiated text, establishing three annual dialogues on trade's role in climate action. [https://www.carbonbrief.org/cop30-key-outcomes-agreed-at-the-un-climate-talks-in-belem/](https://www.carbonbrief.org/cop30-key-outcomes-agreed-at-the-un-climate-talks-in-belem/)  
-* The EU's CBAM moves to its definitive phase in January 2026, requiring importers of cement, steel, aluminium, fertilizers, electricity, and hydrogen to purchase certificates based on embedded emissions [https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism\_en](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en)
+* The EU's CBAM moves to its definitive phase in January 2026, requiring importers of cement, steel, aluminium, fertilisers, electricity, and hydrogen to purchase certificates based on embedded emissions [https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism\_en](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en)
 
 ## Related Forecasts
 
