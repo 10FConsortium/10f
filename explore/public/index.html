@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore — 10F Consortium</title>
+  <meta name="description" content="Explore ten forecasts mapping how global systems are fragmenting and reorganising through 2035.">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Karla:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --10f-orange: #FF6123;
+      --charcoal: #191A1A;
+      --near-black: #0D0D0D;
+      --off-white: #FAFAF9;
+      --sand: #FACF9F;
+      --border: rgba(0, 0, 0, 0.12);
+    }
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: "Karla", -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--off-white);
+      color: var(--near-black);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--charcoal);
+      padding: 1.25rem 2rem;
+    }
+
+    header .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    header .site-link {
+      display: block;
+      text-decoration: none;
+      line-height: 0;
+    }
+
+    header .site-link img {
+      height: 1.4rem;
+      width: auto;
+      display: block;
+    }
+
+    header .site-link:hover {
+      opacity: 0.85;
+    }
+
+    header .page-title {
+      font-family: "Inconsolata", monospace;
+      font-size: 0.85rem;
+      color: var(--off-white);
+      letter-spacing: -0.02em;
+      opacity: 0.6;
+    }
+
+    .accent-bar {
+      height: 6px;
+      background: var(--10f-orange);
+    }
+
+    #conversation {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 2rem 220px 2rem;
+    }
+
+    .guide-message {
+      margin-bottom: 1.5rem;
+    }
+
+    .guide-message:first-child {
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .guide-message:first-child p {
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+
+    .guide-message p,
+    .guide-message li,
+    .guide-message td,
+    .guide-message th {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      font-weight: 400;
+      color: var(--near-black);
+    }
+
+    .guide-message p {
+      margin-bottom: 0.8rem;
+    }
+
+    .guide-message p:last-child {
+      margin-bottom: 0;
+    }
+
+    .guide-message h1,
+    .guide-message h2,
+    .guide-message h3,
+    .guide-message h4,
+    .guide-message h5,
+    .guide-message h6 {
+      font-weight: 400;
+      color: var(--10f-orange);
+      margin-top: 1.2rem;
+      margin-bottom: 0.6rem;
+      line-height: 1.3;
+      letter-spacing: -0.03em;
+    }
+
+    .guide-message h1 { font-size: 1.4rem; }
+    .guide-message h2 { font-size: 1.25rem; }
+    .guide-message h3 { font-size: 1.15rem; }
+    .guide-message h4 { font-size: 1.1rem; }
+
+    .guide-message ul,
+    .guide-message ol {
+      margin-bottom: 0.8rem;
+      padding-left: 1.5rem;
+    }
+
+    .guide-message li {
+      margin-bottom: 0.3rem;
+    }
+
+    .guide-message strong {
+      font-weight: 700;
+    }
+
+    .guide-message em {
+      font-style: italic;
+    }
+
+    .guide-message code {
+      font-family: "Inconsolata", "SF Mono", monospace;
+      font-size: 0.9em;
+      background: rgba(0, 0, 0, 0.04);
+      padding: 0.15em 0.35em;
+    }
+
+    .guide-message pre {
+      background: rgba(0, 0, 0, 0.04);
+      padding: 1rem;
+      overflow-x: auto;
+      margin-bottom: 0.8rem;
+    }
+
+    .guide-message pre code {
+      background: none;
+      padding: 0;
+    }
+
+    .guide-message blockquote {
+      border-left: 2px solid var(--10f-orange);
+      padding-left: 1rem;
+      margin-bottom: 0.8rem;
+      color: #666666;
+    }
+
+    .guide-message a {
+      color: var(--10f-orange);
+      text-decoration: underline;
+    }
+
+    .user-message {
+      font-size: 0.95rem;
+      color: #666666;
+      border-left: 2px solid var(--10f-orange);
+      padding-left: 1rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .error-message {
+      font-size: 0.95rem;
+      color: #999999;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .loading {
+      color: var(--10f-orange);
+    }
+
+    .loading-status {
+      font-family: "Inconsolata", monospace;
+      font-size: 0.95rem;
+      color: var(--10f-orange);
+      font-style: normal;
+      letter-spacing: -0.03em;
+    }
+
+    .limit-message {
+      font-family: "Inconsolata", monospace;
+      font-size: 0.9rem;
+      color: #999999;
+      line-height: 1.6;
+      padding: 1rem 0;
+      letter-spacing: -0.03em;
+    }
+
+    #bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--off-white);
+      border-top: 1px solid var(--border);
+      z-index: 10;
+    }
+
+    #bottom-bar-inner {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+    }
+
+    #suggestions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+      min-height: 0;
+    }
+
+    #suggestions:empty {
+      margin-bottom: 0;
+    }
+
+    #suggestions .suggestion {
+      font-family: "Inconsolata", monospace;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--near-black);
+      cursor: pointer;
+      background: none;
+      border: 1px solid var(--border);
+      padding: 0.5rem 1rem;
+      letter-spacing: -0.03em;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+
+    #suggestions .suggestion:hover {
+      color: var(--10f-orange);
+      border-color: var(--10f-orange);
+    }
+
+    #suggestions .separator {
+      display: none;
+    }
+
+    #input-form {
+      display: flex;
+      gap: 0;
+    }
+
+    #user-input {
+      flex: 1;
+      border: 1px solid var(--border);
+      border-right: none;
+      border-radius: 0;
+      font-size: 1rem;
+      font-family: inherit;
+      padding: 0.75rem 1rem;
+      outline: none;
+      background: #ffffff;
+      color: var(--near-black);
+      transition: border-color 0.15s ease;
+      -webkit-appearance: none;
+    }
+
+    #user-input:focus {
+      border-color: var(--10f-orange);
+    }
+
+    #user-input:disabled {
+      background: var(--off-white);
+      color: #999999;
+      cursor: not-allowed;
+    }
+
+    #send-btn {
+      font-family: "Inconsolata", monospace;
+      border: 1px solid var(--border);
+      border-radius: 0;
+      background: none;
+      font-size: 1.1rem;
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+      color: var(--near-black);
+      transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+      line-height: 1;
+    }
+
+    #send-btn:hover {
+      background: var(--10f-orange);
+      color: #ffffff;
+      border-color: var(--10f-orange);
+    }
+
+    #send-btn:disabled {
+      color: #999999;
+      cursor: not-allowed;
+      background: none;
+      border-color: var(--border);
+    }
+
+    #user-input:focus + #send-btn {
+      border-color: var(--10f-orange);
+    }
+
+    #controls {
+      min-height: 0;
+    }
+
+    #controls:empty {
+      display: none;
+    }
+
+    #controls .save-link {
+      display: inline-block;
+      margin-top: 0.6rem;
+      font-family: "Inconsolata", monospace;
+      font-size: 0.8rem;
+      color: #666666;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      text-decoration: none;
+      letter-spacing: -0.03em;
+    }
+
+    #controls .save-link:hover {
+      color: var(--10f-orange);
+    }
+
+    @media (max-width: 720px) {
+      header {
+        padding: 1rem 1rem;
+      }
+
+      #conversation {
+        padding: 0 1rem 200px 1rem;
+      }
+
+      #bottom-bar-inner {
+        padding: 0.75rem 1rem;
+      }
+
+      #suggestions {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        margin-bottom: 0.5rem;
+        mask-image: linear-gradient(to right, black calc(100% - 2rem), transparent);
+        -webkit-mask-image: linear-gradient(to right, black calc(100% - 2rem), transparent);
+      }
+
+      #suggestions::-webkit-scrollbar {
+        display: none;
+      }
+
+      #suggestions .suggestion {
+        white-space: nowrap;
+        font-size: 0.85rem;
+        padding: 0.4rem 0.75rem;
+        flex-shrink: 0;
+      }
+
+      .guide-message p,
+      .guide-message li,
+      .guide-message td,
+      .guide-message th {
+        font-size: 1rem;
+      }
+
+      .user-message {
+        font-size: 0.9rem;
+      }
+
+      header .site-link,
+      header .page-title {
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .guide-message p,
+      .guide-message li {
+        font-size: 0.95rem;
+      }
+
+      #user-input {
+        font-size: 0.95rem;
+        padding: 0.65rem 0.75rem;
+      }
+
+      #send-btn {
+        padding: 0.65rem 0.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="https://www.10fconsortium.org" class="site-link"><img src="/logo-10f.png" alt="10F Consortium"></a>
+      <span class="page-title">Explore the Forecasts</span>
+    </div>
+  </header>
+  <div class="accent-bar"></div>
+
+  <main id="conversation">
+  </main>
+
+  <div id="bottom-bar">
+    <div id="bottom-bar-inner">
+      <div id="suggestions"></div>
+      <form id="input-form">
+        <input type="text" id="user-input" placeholder="Ask about the forecasts..." autocomplete="off" />
+        <button type="submit" id="send-btn" aria-label="Send">&#8594;</button>
+      </form>
+      <div id="controls"></div>
+    </div>
+  </div>
+
+  <script>
+    marked.setOptions({ breaks: true });
+
+    // Loading status messages - rotate during API calls
+    var LOADING_MESSAGES = [
+      "Mapping systemic shifts...",
+      "Connecting forecasts...",
+      "Analyzing transformation patterns...",
+      "Exploring AREAS landscape...",
+      "Tracing emerging norms...",
+      "Identifying blind spots...",
+      "Synthesizing global implications...",
+      "Scanning adaptive strategies...",
+      "Reading directional signals...",
+      "Examining cross-domain impacts..."
+    ];
+
+    var state = {
+      messages: [],
+      rawResponses: [],
+      loadingMessageIndex: 0,
+      loadingMessageInterval: null
+    };
+
+    // Forecast URLs — update slugs once pages are live
+    var SITE_BASE = "https://www.10fconsortium.org";
+    var FORECAST_URLS = {
+      1:  "/forecasts/engineered-opacity",
+      2:  "/forecasts/ideological-fog",
+      3:  "/forecasts/localized-solidarity",
+      4:  "/forecasts/strategic-situationships",
+      5:  "/forecasts/fragmented-adaptation",
+      6:  "/forecasts/strategic-opacity",
+      7:  "/forecasts/people-as-asset-class",
+      8:  "/forecasts/power-plurality",
+      9:  "/forecasts/money-unbundled",
+      10: "/forecasts/sovereign-systems"
+    };
+    var AREAS_URL = "/areas";
+
+    function linkForecasts(html) {
+      // Match "Forecast N, Title..." or "Forecast N" (not already inside a link)
+      html = html.replace(
+        /(?!<a[^>]*>)(Forecast\s+(\d{1,2})(?:,\s*[^<.;)]+?)?)(?![^<]*<\/a>)/g,
+        function(match, fullText, num) {
+          var n = parseInt(num, 10);
+          if (!FORECAST_URLS[n]) return match;
+          return '<a href="' + SITE_BASE + FORECAST_URLS[n] + '" target="_blank" rel="noopener">' + fullText.trim() + '</a>';
+        }
+      );
+      // Match standalone "AREAS" when not already inside a link or part of a longer word
+      html = html.replace(
+        /(?!<a[^>]*>)\bAREAS\b(?![^<]*<\/a>)/g,
+        '<a href="' + SITE_BASE + AREAS_URL + '" target="_blank" rel="noopener">AREAS</a>'
+      );
+      return html;
+    }
+
+    var CONVERSATION_LIMIT = 10;
+    var OPENING_MESSAGE = "I\u2019m the 10F guide. Ten forecasts mapping how global systems are fragmenting and reorganising through 2035. You can ask about a specific forecast, a topic you\u2019re navigating professionally, or how different shifts connect to each other.";
+    var INITIAL_SUGGESTIONS = [
+      "What are the ten forecasts about?",
+      "Which forecasts matter for international development?",
+      "How do the energy and finance shifts connect?"
+    ];
+
+    var conversationEl = document.getElementById("conversation");
+    var suggestionsEl = document.getElementById("suggestions");
+    var inputForm = document.getElementById("input-form");
+    var userInput = document.getElementById("user-input");
+    var sendBtn = document.getElementById("send-btn");
+    var controlsEl = document.getElementById("controls");
+    var isSending = false;
+
+    function cleanResponse(markdown) {
+      // Strip wiki-link syntax [[...]] — keep inner text, remove path prefixes
+      return markdown.replace(/\[\[(?:[^\]]*\/)?([^\]]+)\]\]/g, "$1");
+    }
+
+    function renderGuideMessage(markdown) {
+      var div = document.createElement("div");
+      div.className = "guide-message";
+      var html = DOMPurify.sanitize(marked.parse(cleanResponse(markdown)));
+      div.innerHTML = linkForecasts(html);
+      conversationEl.appendChild(div);
+      return div;
+    }
+
+    function renderUserMessage(text) {
+      var div = document.createElement("div");
+      div.className = "user-message";
+      div.textContent = text;
+      conversationEl.appendChild(div);
+      return div;
+    }
+
+    function renderSuggestions(suggestions) {
+      suggestionsEl.innerHTML = "";
+      if (!suggestions || suggestions.length === 0) return;
+
+      suggestions.forEach(function(text, i) {
+        if (i > 0) {
+          var sep = document.createElement("span");
+          sep.className = "separator";
+          sep.textContent = "\u00B7";
+          suggestionsEl.appendChild(sep);
+        }
+        var link = document.createElement("button");
+        link.type = "button";
+        link.className = "suggestion";
+        link.textContent = text;
+        link.addEventListener("click", function() {
+          sendMessage(text);
+        });
+        suggestionsEl.appendChild(link);
+      });
+    }
+
+    function clearSuggestions() {
+      suggestionsEl.innerHTML = "";
+    }
+
+    function renderLoading() {
+      var div = document.createElement("div");
+      div.className = "guide-message loading";
+      div.id = "loading-indicator";
+
+      var statusText = document.createElement("span");
+      statusText.className = "loading-status";
+      statusText.textContent = LOADING_MESSAGES[0];
+
+      div.appendChild(statusText);
+      conversationEl.appendChild(div);
+      scrollToBottom();
+      return div;
+    }
+
+    function startLoadingMessageRotation() {
+      // Reset to first message
+      state.loadingMessageIndex = 0;
+
+      // Update message every 2.5 seconds
+      state.loadingMessageInterval = setInterval(function() {
+        state.loadingMessageIndex = (state.loadingMessageIndex + 1) % LOADING_MESSAGES.length;
+
+        var loadingElement = document.querySelector(".loading-status");
+        if (loadingElement) {
+          loadingElement.textContent = LOADING_MESSAGES[state.loadingMessageIndex];
+        }
+      }, 2500);
+    }
+
+    function stopLoadingMessageRotation() {
+      if (state.loadingMessageInterval) {
+        clearInterval(state.loadingMessageInterval);
+        state.loadingMessageInterval = null;
+      }
+    }
+
+    function removeLoading() {
+      stopLoadingMessageRotation();
+      var el = document.getElementById("loading-indicator");
+      if (el) el.remove();
+    }
+
+    function showError(message) {
+      var div = document.createElement("div");
+      div.className = "error-message";
+      div.textContent = message || "Something went wrong. You can try sending your message again.";
+      conversationEl.appendChild(div);
+    }
+
+    function scrollToBottom() {
+      requestAnimationFrame(function() {
+        window.scrollTo({
+          top: document.body.scrollHeight,
+          behavior: "smooth"
+        });
+      });
+    }
+
+    function checkConversationLimit() {
+      var userMessages = state.messages.filter(function(m) { return m.role === "user"; }).length;
+      var maxQuestions = CONVERSATION_LIMIT / 2;
+      var remaining = maxQuestions - userMessages;
+
+      if (remaining <= 0) {
+        userInput.disabled = true;
+        sendBtn.disabled = true;
+        userInput.placeholder = "";
+        clearSuggestions();
+
+        var div = document.createElement("div");
+        div.className = "limit-message";
+        div.textContent = "This conversation has reached its limit. You can save it or refresh to start a new one.";
+        conversationEl.appendChild(div);
+
+        updateControls();
+        scrollToBottom();
+      } else if (remaining === 1) {
+        userInput.placeholder = "Last question...";
+      } else if (remaining === 2) {
+        userInput.placeholder = "2 questions remaining...";
+      }
+    }
+
+    function updateControls() {
+      controlsEl.innerHTML = "";
+      if (state.messages.length >= 6) {
+        var link = document.createElement("button");
+        link.type = "button";
+        link.className = "save-link";
+        link.textContent = "Save conversation";
+        link.addEventListener("click", downloadMarkdown);
+        controlsEl.appendChild(link);
+      }
+    }
+
+    function downloadMarkdown() {
+      var now = new Date();
+      var dateStr = now.getFullYear() + "-"
+        + String(now.getMonth() + 1).padStart(2, "0") + "-"
+        + String(now.getDate()).padStart(2, "0");
+
+      var md = "# 10F Exploration \u2014 " + dateStr + "\n\n";
+      md += OPENING_MESSAGE + "\n\n";
+      var rawIndex = 0;
+
+      for (var i = 0; i < state.messages.length; i++) {
+        var msg = state.messages[i];
+        if (msg.role === "user") {
+          md += "**You:** " + msg.content + "\n\n";
+        } else if (msg.role === "assistant") {
+          md += state.rawResponses[rawIndex] + "\n\n";
+          rawIndex++;
+        }
+      }
+
+      var blob = new Blob([md.trim() + "\n"], { type: "text/markdown" });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement("a");
+      a.href = url;
+      a.download = "10f-exploration-" + dateStr + ".md";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    async function sendMessage(text) {
+      if (!text || !text.trim()) return;
+      if (isSending) return;
+      text = text.trim();
+
+      if (state.messages.length >= CONVERSATION_LIMIT) return;
+
+      isSending = true;
+      state.messages.push({ role: "user", content: text });
+      renderUserMessage(text);
+      clearSuggestions();
+      userInput.value = "";
+      userInput.disabled = true;
+      sendBtn.disabled = true;
+      renderLoading();
+      startLoadingMessageRotation();
+      scrollToBottom();
+
+      try {
+        var response = await fetch("/.netlify/functions/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ messages: state.messages })
+        });
+
+        if (response.status === 429) {
+          var err = await response.json();
+          throw new Error(err.error || "Rate limit exceeded. Please try again later.");
+        }
+
+        if (!response.ok) {
+          throw new Error("API returned " + response.status);
+        }
+
+        var data = await response.json();
+        removeLoading();
+
+        state.messages.push({ role: "assistant", content: data.response });
+        state.rawResponses.push(data.response);
+
+        renderGuideMessage(data.response);
+
+        if (data.suggestions && data.suggestions.length > 0) {
+          renderSuggestions(data.suggestions);
+        }
+
+        updateControls();
+        checkConversationLimit();
+        scrollToBottom();
+      } catch (err) {
+        removeLoading();
+        showError(err.message);
+        state.messages.pop();
+        scrollToBottom();
+      }
+
+      isSending = false;
+      if (state.messages.length < CONVERSATION_LIMIT) {
+        userInput.disabled = false;
+        sendBtn.disabled = false;
+      }
+      if (!('ontouchstart' in window)) {
+        userInput.focus();
+      }
+    }
+
+    inputForm.addEventListener("submit", function(e) {
+      e.preventDefault();
+      sendMessage(userInput.value);
+    });
+
+    (function init() {
+      renderGuideMessage(OPENING_MESSAGE);
+      renderSuggestions(INITIAL_SUGGESTIONS);
+    })();
+  </script>
+</body>
+</html>
