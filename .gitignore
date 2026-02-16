@@ -3,3 +3,8 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Explore chat app
+explore/.env
+explore/node_modules/
+explore/.netlify/
