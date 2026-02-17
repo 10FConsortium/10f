@@ -640,6 +640,12 @@
       });
     }
 
+    function scrollToElement(el) {
+      requestAnimationFrame(function() {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+
     function checkConversationLimit() {
       var userMessages = state.messages.filter(function(m) { return m.role === "user"; }).length;
       var maxQuestions = CONVERSATION_LIMIT / 2;
@@ -749,7 +755,7 @@
         state.messages.push({ role: "assistant", content: data.response });
         state.rawResponses.push(data.response);
 
-        renderGuideMessage(data.response);
+        var responseEl = renderGuideMessage(data.response);
 
         if (data.suggestions && data.suggestions.length > 0) {
           renderSuggestions(data.suggestions);
@@ -757,7 +763,7 @@
 
         updateControls();
         checkConversationLimit();
-        scrollToBottom();
+        scrollToElement(responseEl);
       } catch (err) {
         removeLoading();
         showError(err.message);
