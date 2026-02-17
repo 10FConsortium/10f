@@ -507,6 +507,15 @@
           return '<a href="' + SITE_BASE + FORECAST_URLS[n] + '" target="_blank" rel="noopener">' + fullText.trim() + '</a>';
         }
       );
+      // Match "0N From Title..." pattern (e.g. "03 From Digital Empathy to Localised Solidarity")
+      html = html.replace(
+        /(?!<a[^>]*>)\b(0?(\d{1,2})\s+From\s+[^<.;)]+?)(?![^<]*<\/a>)/g,
+        function(match, fullText, num) {
+          var n = parseInt(num, 10);
+          if (!FORECAST_URLS[n]) return match;
+          return '<a href="' + SITE_BASE + FORECAST_URLS[n] + '" target="_blank" rel="noopener">' + fullText.trim() + '</a>';
+        }
+      );
       // Match standalone "AREAS" when not already inside a link or part of a longer word
       html = html.replace(
         /(?!<a[^>]*>)\bAREAS\b(?![^<]*<\/a>)/g,
