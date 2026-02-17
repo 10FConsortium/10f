@@ -50,11 +50,16 @@
       overflow-y: auto;
       display: flex;
       flex-direction: column;
-      justify-content: flex-end;
+    }
+
+    #conversation-spacer {
+      flex: 1;
     }
 
     .guide-message {
       margin-bottom: 1.5rem;
+      flex-shrink: 0;
+      width: 100%;
     }
 
     .guide-message:first-child {
@@ -160,6 +165,8 @@
       padding-left: 1rem;
       margin-bottom: 1.5rem;
       line-height: 1.6;
+      flex-shrink: 0;
+      width: 100%;
     }
 
     .error-message {
@@ -390,6 +397,7 @@
 </head>
 <body>
   <main id="conversation">
+    <div id="conversation-spacer"></div>
   </main>
 
   <div id="bottom-bar">
