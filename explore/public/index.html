@@ -72,10 +72,14 @@
       width: 100%;
       margin: 0 auto;
       padding: 1rem 2rem 1rem 2rem;
-      flex: 1;
+      flex: 0;
       overflow-y: auto;
       display: flex;
       flex-direction: column;
+    }
+
+    #conversation.active {
+      flex: 1;
     }
 
     #conversation-spacer {
@@ -732,6 +736,7 @@
 
       isSending = true;
       document.getElementById("conversation-spacer").classList.add("active");
+      conversationEl.classList.add("active");
       state.messages.push({ role: "user", content: text });
       renderUserMessage(text);
       clearSuggestions();
