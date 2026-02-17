@@ -1,4 +1,5 @@
 [build]
+  command = "# no build step"
   publish = "public"
   functions = "netlify/functions"
 
