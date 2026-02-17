@@ -81,11 +81,14 @@ const corsHeaders = {
 };
 
 function parseSuggestions(text) {
-  const marker = "---suggestions";
-  const idx = text.lastIndexOf(marker);
-  if (idx === -1) return { body: text.trim(), suggestions: [] };
+  // Match various model outputs: "---suggestions", "--- suggestions",
+  // or "---\nsuggestions" (with optional trailing "---" closing)
+  const pattern = /---\s*suggestions\s*\n/i;
+  const match = text.match(pattern);
+  if (!match) return { body: text.trim(), suggestions: [] };
+  const idx = match.index;
   const body = text.slice(0, idx).trim();
-  const suggestionBlock = text.slice(idx + marker.length);
+  const suggestionBlock = text.slice(idx + match[0].length);
   const suggestions = suggestionBlock
     .split("\n")
     .map(s => s.trim())
