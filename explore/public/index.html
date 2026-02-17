@@ -475,8 +475,6 @@
     var INITIAL_SUGGESTIONS = [
       'What does 10F mean by "one game to many games"?',
       "Which forecasts are most relevant to humanitarian organizations?",
-      "How is migration being commodified?",
-      "What is the AREAS framework?",
       "How do the transparency and money forecasts connect?",
       "What signals indicate that alliances are becoming transactional?"
     ];
@@ -737,7 +735,13 @@
     });
 
     (function init() {
-      renderGuideMessage(OPENING_MESSAGE);
+      // Render opening message at the top (before the spacer)
+      var spacer = document.getElementById("conversation-spacer");
+      var div = document.createElement("div");
+      div.className = "guide-message";
+      var html = DOMPurify.sanitize(marked.parse(cleanResponse(OPENING_MESSAGE)));
+      div.innerHTML = linkForecasts(html);
+      conversationEl.insertBefore(div, spacer);
       renderSuggestions(INITIAL_SUGGESTIONS);
     })();
   </script>
