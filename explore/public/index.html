@@ -41,6 +41,31 @@
       overflow: hidden;
     }
 
+    #intro {
+      flex-shrink: 0;
+      max-width: 680px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1.5rem 2rem 0 2rem;
+    }
+
+    #intro h1 {
+      font-weight: 400;
+      color: var(--10f-orange);
+      font-size: 1.4rem;
+      margin-bottom: 0.6rem;
+      line-height: 1.3;
+      letter-spacing: -0.03em;
+    }
+
+    #intro p {
+      font-size: 1.25rem;
+      line-height: 1.5;
+      font-weight: 400;
+      color: var(--near-black);
+      margin-bottom: 0;
+    }
+
     #conversation {
       max-width: 680px;
       width: 100%;
@@ -335,6 +360,10 @@
     }
 
     @media (max-width: 720px) {
+      #intro {
+        padding: 1.5rem 1rem 0 1rem;
+      }
+
       #conversation {
         padding: 0 1rem 1rem 1rem;
       }
@@ -400,6 +429,7 @@
   </style>
 </head>
 <body>
+  <div id="intro"></div>
   <main id="conversation">
     <div id="conversation-spacer"></div>
   </main>
@@ -740,13 +770,10 @@
     });
 
     (function init() {
-      // Render opening message at the top (before the spacer)
-      var spacer = document.getElementById("conversation-spacer");
-      var div = document.createElement("div");
-      div.className = "guide-message";
+      // Render opening message in the fixed intro area (outside scrollable conversation)
+      var introEl = document.getElementById("intro");
       var html = DOMPurify.sanitize(marked.parse(cleanResponse(OPENING_MESSAGE)));
-      div.innerHTML = linkForecasts(html);
-      conversationEl.insertBefore(div, spacer);
+      introEl.innerHTML = linkForecasts(html);
       renderSuggestions(INITIAL_SUGGESTIONS);
     })();
   </script>
