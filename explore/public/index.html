@@ -53,6 +53,10 @@
     }
 
     #conversation-spacer {
+      flex: 0;
+    }
+
+    #conversation-spacer.active {
       flex: 1;
     }
 
@@ -671,6 +675,7 @@
       if (state.messages.length >= CONVERSATION_LIMIT) return;
 
       isSending = true;
+      document.getElementById("conversation-spacer").classList.add("active");
       state.messages.push({ role: "user", content: text });
       renderUserMessage(text);
       clearSuggestions();
