@@ -37,48 +37,6 @@
       line-height: 1.6;
     }
 
-    header {
-      background: var(--charcoal);
-      padding: 1.25rem 2rem;
-    }
-
-    header .header-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    header .site-link {
-      display: block;
-      text-decoration: none;
-      line-height: 0;
-    }
-
-    header .site-link img {
-      height: 1.4rem;
-      width: auto;
-      display: block;
-    }
-
-    header .site-link:hover {
-      opacity: 0.85;
-    }
-
-    header .page-title {
-      font-family: "Inconsolata", monospace;
-      font-size: 0.85rem;
-      color: var(--off-white);
-      letter-spacing: -0.02em;
-      opacity: 0.6;
-    }
-
-    .accent-bar {
-      height: 6px;
-      background: var(--10f-orange);
-    }
-
     #conversation {
       max-width: 680px;
       margin: 0 auto;
@@ -359,10 +317,6 @@
     }
 
     @media (max-width: 720px) {
-      header {
-        padding: 1rem 1rem;
-      }
-
       #conversation {
         padding: 0 1rem 200px 1rem;
       }
@@ -403,10 +357,6 @@
         font-size: 0.9rem;
       }
 
-      header .site-link,
-      header .page-title {
-        font-size: 0.8rem;
-      }
     }
 
     @media (max-width: 480px) {
@@ -427,14 +377,6 @@
   </style>
 </head>
 <body>
-  <header>
-    <div class="header-inner">
-      <a href="https://www.10fconsortium.org" class="site-link"><img src="/logo-10f.png" alt="10F Consortium"></a>
-      <span class="page-title">Explore the Forecasts</span>
-    </div>
-  </header>
-  <div class="accent-bar"></div>
-
   <main id="conversation">
   </main>
 
