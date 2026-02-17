@@ -35,12 +35,19 @@
       background: var(--off-white);
       color: var(--near-black);
       line-height: 1.6;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
     }
 
     #conversation {
       max-width: 680px;
+      width: 100%;
       margin: 0 auto;
-      padding: 0 2rem 220px 2rem;
+      padding: 0 2rem 1rem 2rem;
+      flex: 1;
+      overflow-y: auto;
     }
 
     .guide-message {
@@ -181,10 +188,7 @@
     }
 
     #bottom-bar {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
+      flex-shrink: 0;
       background: var(--off-white);
       border-top: 1px solid var(--border);
       z-index: 10;
@@ -318,7 +322,7 @@
 
     @media (max-width: 720px) {
       #conversation {
-        padding: 0 1rem 200px 1rem;
+        padding: 0 1rem 1rem 1rem;
       }
 
       #bottom-bar-inner {
@@ -344,6 +348,11 @@
         font-size: 0.85rem;
         padding: 0.4rem 0.75rem;
         flex-shrink: 0;
+      }
+
+      #suggestions .suggestion:nth-of-type(n+4),
+      #suggestions .separator:nth-of-type(n+4) {
+        display: none;
       }
 
       .guide-message p,
@@ -418,16 +427,17 @@
     // Forecast URLs — update slugs once pages are live
     var SITE_BASE = "https://www.10fconsortium.org";
     var FORECAST_URLS = {
-      1:  "/forecasts/engineered-opacity",
-      2:  "/forecasts/ideological-fog",
-      3:  "/forecasts/localized-solidarity",
-      4:  "/forecasts/strategic-situationships",
-      5:  "/forecasts/fragmented-adaptation",
-      6:  "/forecasts/strategic-opacity",
-      7:  "/forecasts/people-as-asset-class",
-      8:  "/forecasts/power-plurality",
-      9:  "/forecasts/money-unbundled",
-      10: "/forecasts/sovereign-systems"
+      0:  "/forecast-index/f00-one-game-to-many",
+      1:  "/forecast-index/f01-agreed-transparency-strategic-opacity",
+      2:  "/forecast-index/f02-political-spectrum-ideological-fog",
+      3:  "/forecast-index/f03-digital-empathy-localised-solidarity",
+      4:  "/forecast-index/f04-special-relationship-strategic-situationship",
+      5:  "/forecast-index/f05-collective-climate-ambition-fragmented-adaptation",
+      6:  "/forecast-index/f06-open-society-tactical-shapeshifting",
+      7:  "/forecast-index/f07-selective-migration-people-asset-class",
+      8:  "/forecast-index/f08-energy-hegemony-power-plurlality",
+      9:  "/forecast-index/f09-dollar-dominance-money-unbundled",
+      10: "/forecast-index/f10-technology-convergence-sovereign-systems"
     };
     var AREAS_URL = "/areas";
 
@@ -450,11 +460,14 @@
     }
 
     var CONVERSATION_LIMIT = 10;
-    var OPENING_MESSAGE = "I\u2019m the 10F guide. Ten forecasts mapping how global systems are fragmenting and reorganising through 2035. You can ask about a specific forecast, a topic you\u2019re navigating professionally, or how different shifts connect to each other.";
+    var OPENING_MESSAGE = "# Explore the 10F Forecasts\n\nThe Forecast Navigator lets you search and ask questions across the 10F Consortium\u2019s ten forecasts on the unravelling of globalisation (2025\u20132035). It draws from the published forecast documents and supporting frameworks.";
     var INITIAL_SUGGESTIONS = [
-      "What are the ten forecasts about?",
-      "Which forecasts matter for international development?",
-      "How do the energy and finance shifts connect?"
+      'What does 10F mean by "one game to many games"?',
+      "Which forecasts are most relevant to humanitarian organizations?",
+      "How is migration being commodified?",
+      "What is the AREAS framework?",
+      "How do the transparency and money forecasts connect?",
+      "What signals indicate that alliances are becoming transactional?"
     ];
 
     var conversationEl = document.getElementById("conversation");
@@ -565,8 +578,9 @@
 
     function scrollToBottom() {
       requestAnimationFrame(function() {
-        window.scrollTo({
-          top: document.body.scrollHeight,
+        var conv = document.getElementById("conversation");
+        conv.scrollTo({
+          top: conv.scrollHeight,
           behavior: "smooth"
         });
       });
