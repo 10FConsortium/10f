@@ -58,7 +58,7 @@ The 10F Consortium is an independent collective of 20+ futurists, strategic anal
 - **Ariel Muller** — Founder of Middlegame, strategic foresight and systems design
 - **Susan Cox-Smith** — Co-founder of Changeist, futures research and strategy, co-author of *Future Cultures* (2023)
 
-**Key Contributors:** Lina Srivastava (Center for Transformational Change, US), Aarathi Krishnan (RAKSHA Intelligence Futures, US), Dr Jake Dunagan (IFTF, US), Cheryl Chung (Tent Futures, Singapore), Katindi Sivi (Longview Consult, Kenya), Dr Ariella Helfgott (SA Futures Agency, Australia), Bernice Ang and Shan Koh (Zeroth Labs, Singapore), Dr Vaughn Tan (Singapore), Igor Schwarzmann (Germany), and others.
+**Key Contributors:** Lina Srivastava (Center for Transformational Change, US), Aarathi Krishnan (RAKSHA Intelligence Futures, US), Dr. Jake Dunagan (IFTF, US), Cheryl Chung (Tent Futures, Singapore), Dr. Katindi Sivi (LongView Consulting, Kenya), Prof. Ariella Helfgott (SA Futures Agency, Australia), Bernise Ang and Shaun Koh (Zeroth Labs, Singapore), Dr. Vaughn Tan (Singapore), Igor Schwarzmann (Germany), and others.
 
 See [full contributor list](10F%20Contributors.md).
 
