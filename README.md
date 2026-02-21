@@ -4,7 +4,7 @@
 
 ### What Is 10F?
 
-Ten strategic forecasts mapping how unified global systems are fragmenting into multiple incompatible arrangements. We call this the shift from "one game to many games"—where organizations must now navigate competing rules, shifting alliances, and parallel systems that don't interoperate.
+Ten strategic forecasts mapping how unified global systems are fragmenting into multiple incompatible arrangements. We call this the shift from “one game to many games”—where organizations must now navigate competing rules, shifting alliances, and parallel systems that don't interoperate.
 
 This is strategic intelligence for organizations making decisions in a world where the old playbook no longer applies.
 
@@ -18,10 +18,10 @@ Decision-makers navigating systemic uncertainty: NGO program officers, foundatio
 
 1. [From Agreed Transparency to Engineered Opacity](01%20From%20Agreed%20Transparency%20to%20Engineered%20Opacity.md)
 2. [From Political Spectrum to Ideological Fog](02%20From%20Political%20Spectrum%20to%20Ideological%20Fog.md)
-3. [From Digital Empathy to Localized Solidarity](03%20From%20Digital%20Empathy%20to%20Localized%20Solidarity.md)
+3. [From Digital Empathy to Localised Solidarity](03%20From%20Digital%20Empathy%20to%20Localized%20Solidarity.md)
 4. [From Special Relationships to Strategic Situationships](04%20From%20Special%20Relationships%20to%20Strategic%20Situationships.md)
 5. [From Collective Climate Ambition to Fragmented Adaptation](05%20From%20Collective%20Climate%20Ambition%20to%20Fragmented%20Adaptation.md)
-6. [From Open Society to Strategic Opacity](06%20From%20Open%20Society%20to%20Strategic%20Opacity.md)
+6. [From Open Society to Tactical Shape-shifting](06%20From%20Open%20Society%20to%20Tactical%20Shape-shifting.md)
 7. [From Selective Migration to People as Asset Class](07%20From%20Selective%20Migration%20to%20People%20as%20Asset%20Class.md)
 8. [From Energy Hegemony to Power Plurality](08%20From%20Energy%20Hegemony%20to%20Power%20Plurality.md)
 9. [From Dollar Dominance to Money Unbundled](09%20From%20Dollar%20Dominance%20to%20Money%20Unbundled.md)
@@ -39,7 +39,7 @@ What we're witnessing isn't random chaos but systematic reorganization driven by
 
 ## Analytical Framework
 
-Each forecast is structured around a "From-To" paradigm shift—contrasting legacy assumptions against emerging realities. Analysis includes current signals and evidence, short scenarios exploring how transformations might unfold, strategic blind spots organizations typically miss, and recommended actions.
+Each forecast is structured around a “From-To” paradigm shift—contrasting legacy assumptions against emerging realities. Analysis includes current signals and evidence, short scenarios exploring how transformations might unfold, strategic blind spots organizations typically miss, and recommended actions.
 
 The [AREAS model](00A%20The%20AREAS%20Framework_%20A%20Guide%20to%20Strategic%20Positioning.md) maps who's Architecting, Resisting, Exploiting, Avoiding, or being Shaped by each shift—moving beyond static geopolitical categories toward dynamic positioning analysis.
 
@@ -82,6 +82,30 @@ Twenty-plus independent practitioners—no institutional sponsor, no client agen
 **License:** All outputs released under [CC-BY-4.0](LICENSE).
 
 **Website:** [10Fconsortium.org](https://10fconsortium.org)
+
+---
+
+## Development
+
+### Jekyll Site (GitHub Pages)
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Open `http://localhost:4000` to preview the documentation site.
+
+### Explore Chat App (Netlify)
+
+```bash
+cd explore
+npm install
+cp .env.example .env   # then add your ANTHROPIC_API_KEY
+npx netlify-cli dev
+```
+
+Open `http://localhost:8888` to preview the chat application.
 
 ---
 
