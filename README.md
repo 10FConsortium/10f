@@ -85,6 +85,12 @@ Twenty-plus independent practitioners—no institutional sponsor, no client agen
 
 ---
 
+## Tools
+
+- [AREAS Gap Analysis Prompt](tools/10F-areas-gap-analysis-prompt.md) — A structured prompt for running AREAS strategic analysis with AI tools like Claude or ChatGPT. Designed to stress-test your positioning maps, surface blind spots, and identify structural barriers.
+
+---
+
 ## Contact
 
 - **General inquiries:** info@10fconsortium.org
