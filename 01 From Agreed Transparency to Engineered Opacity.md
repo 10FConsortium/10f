@@ -188,7 +188,7 @@ Informal systems of value transfer are growing alongside formal ones. Parallel i
 
 ## Related Forecasts
 
-The shift toward opacity extends beyond data systems into societal structures. See [06 From Open Society to Strategic Opacity](06%20From%20Open%20Society%20to%20Strategic%20Opacity.md) for how governments and corporations are strategically managing information flow and visibility.
+The shift toward opacity extends beyond data systems into societal structures. See [06 From Open Society to Tactical Shape-shifting](06%20From%20Open%20Society%20to%20Tactical%20Shape-shifting.md) for how governments and corporations are strategically managing information flow and visibility.
 
 ---
 
@@ -200,4 +200,4 @@ The shift toward opacity extends beyond data systems into societal structures. S
 
 ---
 
-**Boundaries:** This forecast focuses specifically on the strategic shift from transparency to engineered opacity across key domains: financial flows, data infrastructure, governance systems and information disclosure. It examines how both state and corporate actors are deliberately constructing information asymmetries as competitive advantages rather than failures of disclosure. 
+**Boundaries:** This forecast focuses specifically on the strategic shift from transparency to engineered opacity across key domains: financial flows, data infrastructure, governance systems and information disclosure. It examines how both state and corporate actors are deliberately constructing information asymmetries as competitive advantages rather than failures of disclosure.
