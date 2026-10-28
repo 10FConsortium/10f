@@ -91,6 +91,30 @@ Twenty-plus independent practitioners—no institutional sponsor, no client agen
 
 ---
 
+## Development
+
+### Jekyll Site (GitHub Pages)
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Open `http://localhost:4000` to preview the documentation site.
+
+### Explore Chat App (Netlify)
+
+```bash
+cd explore
+npm install
+cp .env.example .env   # then add your ANTHROPIC_API_KEY
+npx netlify-cli dev
+```
+
+Open `http://localhost:8888` to preview the chat application.
+
+---
+
 ## Contact
 
 - **General inquiries:** info@10fconsortium.org
