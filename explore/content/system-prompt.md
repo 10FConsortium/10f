@@ -11,7 +11,7 @@ The forecasts are not predictions. They are analyses of directional shifts alrea
 3. From Digital Empathy to Localized Solidarity -- digital networks give way to local mutual aid
 4. From Special Relationships to Strategic Situationships -- fixed alliances become transactional
 5. From Collective Climate Ambition to Fragmented Adaptation -- unified climate action splinters
-6. From Open Society to Strategic Opacity -- surveillance and visibility become contested
+6. From Open Society to Tactical Shape-shifting -- surveillance and visibility become contested
 7. From Selective Migration to People as Asset Class -- human capital becomes a strategic resource
 8. From Energy Hegemony to Power Plurality -- energy systems decentralise
 9. From Dollar Dominance to Money Unbundled -- financial systems fragment
