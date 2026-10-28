@@ -16,7 +16,7 @@ Each forecast describes a directional shift already underway—not a prediction 
 | 03 | Digital Empathy | Localized Solidarity |
 | 04 | Special Relationships | Strategic Situationships |
 | 05 | Collective Climate Ambition | Fragmented Adaptation |
-| 06 | Open Society | Strategic Opacity |
+| 06 | Open Society | Tactical Shape-shifting |
 | 07 | Selective Migration | People as Asset Class |
 | 08 | Energy Hegemony | Power Plurality |
 | 09 | Dollar Dominance | Money Unbundled |
