@@ -16,7 +16,7 @@ nav_order: 31
 
 ### Information & Transparency
 1. [01 From Agreed Transparency to Engineered Opacity](01%20From%20Agreed%20Transparency%20to%20Engineered%20Opacity.md) - How information becomes strategic
-2. [06 From Open Society to Strategic Opacity](06%20From%20Open%20Society%20to%20Strategic%20Opacity.md) - Surveillance and visibility politics
+2. [06 From Open Society to Tactical Shape-shifting](06%20From%20Open%20Society%20to%20Tactical%20Shape-shifting.md) - Surveillance and visibility politics
 
 ### Politics & Society
 3. [02 From Political Spectrum to Ideological Fog](02%20From%20Political%20Spectrum%20to%20Ideological%20Fog.md) - Fragmenting political alignments
