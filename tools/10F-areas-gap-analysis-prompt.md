@@ -9,7 +9,7 @@
 
 This is a structured prompt for running strategic gap analysis using the AREAS Framework developed by the 10F Consortium. You can use it with Claude, ChatGPT, or any capable AI assistant.
 
-The prompt works best when you've already done the human work: mapping your transformation, identifying relevant actors, and placing them into AREAS positions. The AI's job is to stress-test your mapping, surface blind spots, and identify structural barriers and dependencies you might be too close to see.
+The prompt works best when you've already done the human work: mapping your transformation, identifying relevant actors, and placing them into AREAS positions. The AI's job is to stress-test your mapping, surface blind spots, and identify structural barriers and dependencies you might be too close to see. It supports a single present-day mapping, and it works harder if you add a past baseline (for trajectory analysis) or a preferred future (for gap analysis) — or both.
 
 The quality of output depends entirely on the quality of your input. Honest mapping produces useful analysis. Wishful mapping produces consulting boilerplate.
 
@@ -44,6 +44,10 @@ For your chosen transformation, identify the relevant actors — states, organis
 **Shaped** — Who's responding to changes they didn't choose? Who's adapting because alternatives disappeared? Who's navigating rather than steering?
 
 You can also note the scale each actor operates at: Global (nation-states, multinationals, global platforms), Regional/Sectoral (industries, regional blocs, sector regulators), or Local (municipalities, communities, individual organisations).
+
+### Optional: Map a past baseline
+
+If you want trajectory analysis rather than just a snapshot, create a map showing where the same actors sat at an earlier date — the start of the year, before an election, before a shock. Pick a specific date and draw the map as it was then, not as hindsight makes it look. The comparison between past and present is where movement becomes visible: who actually moved, and who stayed put while the field moved around them.
 
 ### Optional: Map a preferred future
 
@@ -81,6 +85,10 @@ Key principles:
 
 [Describe the shift you're tracking. Be specific. Include context about why this matters to your organisation.]
 
+## PAST MAP (optional — include if you want trajectory analysis)
+
+[Same structure as the present map below, showing where the same actors sat at a baseline date you choose. Name the date. Draw it as it was at the time, not as it looks in hindsight.]
+
 ## PRESENT MAP — Where actors currently sit
 
 Architecting:
@@ -112,13 +120,20 @@ Analyse this mapping. Specifically:
 
 3. Coalitions: Where might actors in different positions share interests that aren't obvious from identity-based analysis? Where are there potential alliances that conventional groupings would miss?
 
-4. If I included a preferred future map — gap analysis:
+4. If I included a past map — trajectory analysis:
+   - Which actors actually moved between the two maps, and which stayed put while the field moved around them? Treat those as different events, even where they look the same on a single map.
+   - Did anyone make a hard transition — Resisting to Architecting, for example — and what is that likely costing them in skills, resources, and legitimacy?
+   - Did anyone anticipate losing position and prepare for it in advance — building barriers, rewriting rules, or readying challenges before the shift arrived?
+   - Has anyone stopped playing within the rules and started contesting the rules themselves?
+   - Based on direction and pace of movement, which positions look likely to harden and which could reopen?
+
+5. If I included a preferred future map — gap analysis:
    - Which shifts are plausible and which are structurally blocked?
    - What has to happen first before other shifts become possible? (dependency chains)
    - What am I assuming that might not hold?
    - What actors or dynamics am I missing from the map entirely?
 
-5. Blind spots: What's missing from my mapping? Actors I haven't placed? Interactions I haven't considered? Assumptions I haven't examined?
+6. Blind spots: What's missing from my mapping? Actors I haven't placed? Interactions I haven't considered? Assumptions I haven't examined?
 
 Be direct. If a shift I want is unrealistic, say so. If my mapping has obvious biases, name them. The goal is to see the landscape clearly, not to feel good about it.
 ```
@@ -130,6 +145,7 @@ Be direct. If a shift I want is unrealistic, say so. If my mapping has obvious b
 - **Be specific in your actor placement.** "Government" is too vague. "Indonesia's Ministry of Trade" gives the AI something to work with.
 - **Include actors you're uncomfortable placing.** If you're not sure where an actor sits, include them with a note saying so. Ambiguity is information.
 - **Don't skip Shaped.** People tend to over-map Architecting and under-map Shaped. The actors being reshaped by forces they didn't choose often reveal the most about the transformation's actual dynamics.
+- **Date your maps.** A single mapping is a snapshot; two dated maps are a trajectory. The baseline doesn't need to be distant — the start of the current year is usually enough to make movement visible, and recent movement is the most decision-relevant kind.
 - **Expect the preferred future to be the hardest part.** Mapping the present is observation. Mapping the preferred future forces you to commit to what you actually want — which actors you need to move, which positions you're willing to accept, what you'd trade. Most teams find this is where the real strategic conversation starts, and where disagreements surface that were previously hidden behind vague consensus.
 - **Run it more than once.** Swap out one or two actors, adjust a position, or reframe the transformation slightly and run it again. The differences between outputs tell you where your mapping is sensitive to assumptions.
 - **Use the output as a starting point for conversation, not a deliverable.** The AI doesn't know your operational context. Its best function is surfacing questions you haven't asked yet.
