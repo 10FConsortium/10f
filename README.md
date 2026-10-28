@@ -21,7 +21,7 @@ Decision-makers navigating systemic uncertainty: NGO program officers, foundatio
 3. [From Digital Empathy to Localized Solidarity](03%20From%20Digital%20Empathy%20to%20Localized%20Solidarity.md)
 4. [From Special Relationships to Strategic Situationships](04%20From%20Special%20Relationships%20to%20Strategic%20Situationships.md)
 5. [From Collective Climate Ambition to Fragmented Adaptation](05%20From%20Collective%20Climate%20Ambition%20to%20Fragmented%20Adaptation.md)
-6. [From Open Society to Strategic Opacity](06%20From%20Open%20Society%20to%20Strategic%20Opacity.md)
+6. [From Open Society to Tactical Shape-shifting](06%20From%20Open%20Society%20to%20Tactical%20Shape-shifting.md)
 7. [From Selective Migration to People as Asset Class](07%20From%20Selective%20Migration%20to%20People%20as%20Asset%20Class.md)
 8. [From Energy Hegemony to Power Plurality](08%20From%20Energy%20Hegemony%20to%20Power%20Plurality.md)
 9. [From Dollar Dominance to Money Unbundled](09%20From%20Dollar%20Dominance%20to%20Money%20Unbundled.md)
@@ -82,7 +82,7 @@ Twenty-plus independent practitioners—no institutional sponsor, no client agen
 
 - **Public release:** 17 February 2026
 - **Time horizon:** 2025–2035
-- **Available formats:** Markdown on GitHub (PDF versions forthcoming)
+- **Available formats:** Markdown on GitHub; PDF editions at [10fconsortium.org](https://10fconsortium.org)
 - **Scope:** Approximately 37,000 words across 13 documents (10 forecasts + 3 framework documents)
 
 **License:** All outputs released under [CC-BY-4.0](LICENSE).
